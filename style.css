@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.mainBox{
+width: 80%;
+margin: auto;
+
+}
+
+.controlLeftRightBox{
+width: 100%;
+display: flex;
+}
+
+.left{
+width: 50%;
+
+}
+.ageHeight input{
+margin: 10px 5px;
+padding: 5px;
+}
+#age{
+    margin-left: 25px;
+}
+#feet{
+    margin-left: 10px;
+}
+#weight{
+    margin-left: 8px;
+}
+
+.targetButton{
+  padding-left: 55px;
+}
+
+.right{
+    width: 50%;
+}
+
+#showNumber{
+
+}
+
+.describe{
+
+}

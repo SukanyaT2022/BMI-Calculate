@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMICalculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="mainBox">
+<div class="topBox">
+    <h4>Modify the values and click the calculate button to use</h4>
+</div> 
+
+<!-- start bar  -->
+<div class="controlLeftRightBox">
+    <div class="left">
+    <h2>US units</h2>
+    <!-- rightbox to put age height weight -->
+    <form action="">
+        <div class="leftBox-calculate">
+            <div class="ageHeight">
+        <labe>Age</labe><input type="text" id="age" ><span>ages:2 - 120</span>
+    </div>
+    <div class="ageHeight">
+        <labe>Height</labe><input type="text" id="feet" placeholder="Feet" ><input type="text" id="inches" placeholder="Inches" >
+    </div>
+    <div class="ageHeight">
+        <labe>Weight</labe><input type="text" id="weight" placeholder="Pounds" >
+    </div>
+        <div class="targetButton">
+        <input type="submit" value="Calculate"/>
+        <input type="reset" value="Clear"/>
+    </div>
+        </div>
+        
+        </form>
+</div>
+
+<!-- end left side -->
+
+<!-- start right side -->
+<div class="right">
+    <h2>Result</h2>
+    <h3>BMI = 23 kg/m<sup>2</sup>(Normal)</h3> 
+    <div class="text">
+        <a href="">Underweight</a>
+        <a href="">Normal</a>
+        <a href="">Overweight</a>
+        <a href="">Obesity</a>
+    </div>
+<div class="bar">
+<div class="pink"></div>
+<div class="green"></div>
+<div class="yellow"></div>
+<div class="red"></div>
+
+</div>
+<div id="showNumber">
+<h2>BMI =<span id="showResultBMI"></span></h2>
+</div>
+
+<div class="describe">
+    <ul>
+   <li> Healthy BMI range: 18.5 kg/m? - 25 kg/m?</li>
+   <li> Healthy weight for the height 128.9 lbs-174.2 lbs</li>
+   <li>BMI Prime: 0.92</li>
+   
+</ul>
+</div>
+
+
+</div>
+</div>
+<!-- end bar  -->
+
+
+
+
+
+
+
+   </div> 
+
+
+</body>
+</html>
