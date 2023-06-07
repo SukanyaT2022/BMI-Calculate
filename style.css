@@ -9,22 +9,39 @@ width: 80%;
 margin: auto;
 
 }
+.topBox{
+    background-color:#2980B9;
+    text-align: center;
+    padding: 10px 0px;
+    color: white;
+}
+
+
 
 .controlLeftRightBox{
 width: 100%;
 display: flex;
+padding-top: 20px;
 }
 
 .left{
 width: 50%;
+background-color: #CACFD2 ;
+padding: 10px 0px 10px 10px ;
 
 }
+.left h2{
+ margin-bottom: 20px;
+    
+    }
+
 .ageHeight input{
 margin: 10px 5px;
 padding: 5px;
 }
 #age{
     margin-left: 25px;
+    margin-right: 20px;
 }
 #feet{
     margin-left: 10px;
@@ -33,16 +50,100 @@ padding: 5px;
     margin-left: 8px;
 }
 
+input[type=submit]{
+    padding: 10px 15px;
+    border: none;
+    color: white;
+    background-color:#1E8449 ;
+}
+input[type=reset]{
+    padding: 10px 10px;
+    border: none;
+    color: white;
+    background-color:#707B7C ;
+}
+
+
 .targetButton{
   padding-left: 55px;
+  margin-top: 10px;
+
 }
 
 .right{
     width: 50%;
+    padding: 3px 0px 10px 40px;
+
+}
+.right h2{
+    background-color: #1E8449;
+    color: white;
+    padding:10px 0px ;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-#showNumber{
 
+
+.text{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 20px;
+    
+}
+.text a{
+    text-decoration: none;
+    color: black;
+font-size: 17px;
+}
+.moveOverweight{
+margin-left: -35px;
+}
+
+
+.bar{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 50px;
+     /* grid tem rowwork as a height of small Box */
+margin-top: 20px;
+}
+.bar p{
+    text-align: right;
+    margin-right: -10px;
+    z-index: 1;
+    position: relative;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.pink{
+    background-color: #F08080;
+
+}
+.green{
+    background-color:#27AE60 ;
+}
+.yellow{
+    background-color: #F4D03F ;
+}
+.red{
+    background-color: #C0392B;
+}
+.darkRed{
+    background-color: #E74C3C ;
+}
+
+
+#showNumber{
+margin: 20px 0px;
+text-align: center;
+}
+
+#showResultBMI{
+    background-color:#CACFD2 ;
+    margin-left: 5px;
 }
 
 .describe{
