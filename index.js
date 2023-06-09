@@ -29,6 +29,32 @@ var heightinMeter = feetV / 39.37  // convert inch to meter
 var finalAnswer = weightinKG / (heightinMeter * heightinMeter)
 finalAnswer = finalAnswer.toFixed(2)// fix 2 change answer to two decimal
 document.getElementById('showResultBMI').innerText="" + finalAnswer
+// finalAnswer = finalAnswer * 8
+//moving circle
+//  document.getElementById('circle').style.left = finalAnswer + "px"
+
+if (finalAnswer >= 0 && finalAnswer <= 18.5 ){
+    finalAnswer = finalAnswer * 4.5
+    document.getElementById('circle').style.left = finalAnswer + "px"
+  
+
+}else if(finalAnswer >18.5 && finalAnswer <= 25){
+    finalAnswer = finalAnswer * 7
+    document.getElementById('circle').style.left = finalAnswer + "px"
+  
+}else if(finalAnswer >25 && finalAnswer <= 30){
+    finalAnswer = finalAnswer * 8
+    document.getElementById('circle').style.left = finalAnswer + "px"
+  
+}else if(finalAnswer >30 && finalAnswer <= 35){
+    finalAnswer = finalAnswer * 9
+    document.getElementById('circle').style.left = finalAnswer + "px"
+  
+}else{
+    finalAnswer = finalAnswer * 11
+    document.getElementById('circle').style.left = finalAnswer + "px"  
+}
+
 
     
 }

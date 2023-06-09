@@ -116,6 +116,7 @@ margin-top: 20px;
     font-size: 20px;
     font-weight: bold;
     margin-top: 10px;
+    width: 100px;
 }
 
 .pink{
@@ -149,3 +150,16 @@ text-align: center;
 .describe{
 
 }
+/* moving circle */
+#circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color:#2D4671;
+    position: relative;
+    top: -45px;
+    left: 0px;
+    padding: 0;
+    margin: 10px 0;
+    }
+
