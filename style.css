@@ -2,6 +2,10 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
+}
+html,body{
+    overflow-x: hidden;
 }
 
 .mainBox{
@@ -73,7 +77,6 @@ input[type=reset]{
 .right{
     width: 50%;
     padding: 3px 0px 10px 40px;
-
 }
 .right h2{
     background-color: #1E8449;
@@ -88,8 +91,7 @@ input[type=reset]{
 .text{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    margin-top: 20px;
-    
+    margin-top: 20px;   
 }
 .text a{
     text-decoration: none;
@@ -162,4 +164,113 @@ text-align: center;
     padding: 0;
     margin: 10px 0;
     }
+
+
+    /*ipad*/
+@media screen and (max-width: 992px) {
+
+    .mainBox{
+        width: 70%;
+        margin: auto;
+        margin-top: 50px;
+        
+        }
+    .controlLeftRightBox{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+        align-items: center;
+        justify-content: center;
+        }
+        
+        .left{
+        width: 100%;
+        background-color: #CACFD2 ;
+        padding: 10px 0px 10px 10px ;
+    
+        
+        }
+        .right{
+            width: 100%;
+            padding: 3px 0px 10px 0px;
+            margin-top: 50px;
+        }
+  
+  
+  }
+  
+  /*ipad-mini*/
+  @media screen and (max-width: 768px) {
+  }
+  
+  /*phone*/
+  @media screen and (max-width: 600px) {
+    .mainBox{
+        width: 80%;
+        margin: 50px auto;
+  
+        
+        
+        }
+    .controlLeftRightBox{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+        align-items: center;
+        justify-content: center;
+        }
+        
+     
+        /* <!-- age height target all input box inside */
+        .ageHeight input{
+            margin: 10px 5px;
+            padding: 5px;
+            width: 100px;
+            }
+       
+            
+            .bar{
+                width: 100%;
+                margin: auto;
+               
+                display: flex;
+                /* display: grid;
+
+                grid-template-columns: repeat(5,1fr);
+                grid-template-rows: 50px; */
+                 /* grid tem rowwork as a height of small Box */
+            margin-top: 40px;
+            }
+            .pink{
+                width:20%;
+            }
+            .green{
+                width:20%;
+            }
+            .yellow{
+                width:20%;
+            }
+            .red{
+                width:20%;
+            }
+            .darkRed{
+                width:20%;
+            }
+            
+            .text{
+                display: flex;
+             justify-content: space-between;
+               
+            }
+            .text a{
+ 
+            }
+            .moveOverweight{
+                margin-left: 0px;
+                }
+
+  }
+  
 
